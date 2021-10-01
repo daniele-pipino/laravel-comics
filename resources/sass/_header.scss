@@ -1,0 +1,22 @@
+header{
+    .top-header{
+        height: 30px;
+        background-color: $primary;
+    }
+    .main-header{
+        height: 100px ;
+    }
+    .main-nav{
+        ul{
+            display: flex;
+            align-items: center;
+        }
+        li{
+            margin: 15px;
+            list-style-type: none;
+        }a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
