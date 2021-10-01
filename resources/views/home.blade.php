@@ -9,5 +9,6 @@
 </head>
 <body>
     @include('includes.header')
+    @include('includes.jumbo')
 </body>
 </html>

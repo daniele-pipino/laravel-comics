@@ -1,0 +1,20 @@
+.jumbo{
+    height: 50vh;
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+    
+    .current-series{
+        height: 50px;
+        width: 250px;
+        background-color: $primary;
+        position: absolute;
+        left: 0;
+        bottom: -25px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }.text{
+        color: #fff;
+    }
+}

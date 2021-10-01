@@ -5,8 +5,10 @@ header{
     }
     .main-header{
         height: 100px ;
+        padding: 10px 0;
     }
     .main-nav{
+        padding-top: 10px;
         ul{
             display: flex;
             align-items: center;

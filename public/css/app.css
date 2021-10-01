@@ -5,8 +5,10 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
+  position: relative;
+  height: 100%;
 }
 
 .img-fluid {
@@ -28,6 +30,10 @@ header .top-header {
 }
 header .main-header {
   height: 100px;
+  padding: 10px 0;
+}
+header .main-nav {
+  padding-top: 10px;
 }
 header .main-nav ul {
   display: flex;
@@ -40,4 +46,25 @@ header .main-nav li {
 header .main-nav a {
   text-decoration: none;
   color: black;
+}
+
+.jumbo {
+  height: 50vh;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+}
+.jumbo .current-series {
+  height: 50px;
+  width: 250px;
+  background-color: #0079db;
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbo .text {
+  color: #fff;
 }
