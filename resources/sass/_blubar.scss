@@ -1,0 +1,17 @@
+#blu-bar{
+    height: 150px;
+    background-color: $primary;
+    color: #fff;
+    .container{
+        height: 100%;
+        justify-content: space-between;
+    align-items: center;
+    img{
+        width: 70px;
+    }
+    span{
+        margin-left: 5px;
+    }
+    }
+
+}
