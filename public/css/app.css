@@ -42,21 +42,38 @@ header .top-header {
 }
 header .main-header {
   min-height: 50px;
+  align-items: center;
 }
-header .navbar {
+header .main-header .header-logo img {
+  width: 70px;
+}
+header .main-header .navbar {
   padding-top: 10px;
 }
-header .navbar ul {
+header .main-header .navbar ul {
   display: flex;
   align-items: center;
 }
-header .navbar li {
+header .main-header .navbar li {
   margin: 15px;
   list-style-type: none;
 }
-header .navbar a {
+header .main-header .navbar a {
   text-decoration: none;
   color: black;
+}
+
+#home-main {
+  height: 50vh;
+  background-color: #535353;
+  color: #fff;
+}
+#home-main .d-flex {
+  justify-content: center;
+  align-items: center;
+}
+#home-main .d-flex h1 {
+  font-size: 50px;
 }
 
 .jumbo {
@@ -91,7 +108,7 @@ header .navbar a {
   align-items: center;
 }
 #blu-bar .container img {
-  width: 70px;
+  width: 50px;
 }
 #blu-bar .container span {
   margin-left: 5px;

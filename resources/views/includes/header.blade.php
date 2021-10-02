@@ -4,14 +4,14 @@
         <div class="container">
             <div class="main-header d-flex">
                  {{-- logo --}}
-                <div class="header-logo h-100">
+                <div class="header-logo">
                     <img src="{{ asset('images/dc-logo.png') }}" alt="dc-logo">
                 </div>
                 {{-- navbar --}}
                 <div class="navbar">
                     <ul>
-                        <li><a href="">CHARACTERS</a></li>
-                        <li><a href="">COMICS</a></li>
+                        <li><a href="{{route('home')}}">CHARACTERS</a></li>
+                        <li><a href="{{route('comics')}}">COMICS</a></li>
                         <li><a href="">MOVIES</a></li>
                         <li><a href="">TV</a></li>
                         <li><a href="">GAMES</a></li>

@@ -5,19 +5,26 @@ header{
     }
     .main-header{
         min-height: 50px;
-    }
-    .navbar{
-        padding-top: 10px;
-        ul{
-            display: flex;
-            align-items: center;
+        align-items: center;
+        .header-logo{
+            img{
+                width: 70px;
+            }
         }
-        li{
-            margin: 15px;
-            list-style-type: none;
-        }a{
-            text-decoration: none;
-            color: black;
+        .navbar{
+            padding-top: 10px;
+            ul{
+                display: flex;
+                align-items: center;
+            }
+            li{
+                margin: 15px;
+                list-style-type: none;
+            }a{
+                text-decoration: none;
+                color: black;
+            }
         }
     }
+    
 }
