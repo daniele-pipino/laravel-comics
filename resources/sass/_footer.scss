@@ -1,0 +1,28 @@
+.f-top{
+    min-height: 60vh;
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-top: 25px;
+    .col-left{
+        flex-wrap: wrap;
+        ul{
+            padding-left: 0;
+            margin: 0 15px;
+        }li{
+            list-style: none;
+            margin: 10px 0;
+        }a{
+            text-decoration: none;
+            color: rgb(150, 148, 148);
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .col-right{
+        background-image: url('../images/dc-logo-bg.png');
+        background-size: cover;
+    }
+    
+}

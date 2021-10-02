@@ -8,7 +8,11 @@
     <title></title>
 </head>
 <body>
+    {{-- header --}}
     @include('includes.header')
+    {{-- jumbo --}}
     @include('includes.jumbo')
+    @include('includes.footer')
+
 </body>
 </html>

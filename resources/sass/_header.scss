@@ -4,10 +4,9 @@ header{
         background-color: $primary;
     }
     .main-header{
-        height: 100px ;
-        padding: 10px 0;
+        min-height: 50px;
     }
-    .main-nav{
+    .navbar{
         padding-top: 10px;
         ul{
             display: flex;
