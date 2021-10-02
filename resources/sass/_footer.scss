@@ -1,5 +1,8 @@
+footer{
+    height: calc(560px - 100px);
+}
 .f-top{
-    min-height: 60vh;
+    padding: 20px;
     background-image: url('../images/footer-bg.jpg');
     background-size: cover;
     color: #fff;
@@ -23,6 +26,33 @@
     .col-right{
         background-image: url('../images/dc-logo-bg.png');
         background-size: cover;
+    }
+    
+}
+.f-bottom{
+    min-height: 100px;
+    background-color: rgb(83, 83, 83);
+    .container{
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        .f-btn{
+            color:#fff;
+            padding: 10px 25px;
+            border: 1px solid $primary;
+            &:hover{
+                background-color: $primary;
+            }
+        }
+        h3{
+            color: $primary;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            padding-top: 12px;
+            margin: 0 10px;
+        }
     }
     
 }

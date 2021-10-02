@@ -40,4 +40,17 @@
             <div class="col-right w-50 "></div>
         </div>
     </div>
+    <div class="f-bottom">
+        <div class="container d-flex">
+            <a href="#" class="btn f-btn">SIGN UP NOW</a>
+            <div class="d-flex">
+                <h3>FOLLOW US</h3>
+                <img src="{{ asset('images/footer-facebook.png') }}" alt="dc-logo">
+                <img src="{{ asset('images/footer-periscope.png') }}" alt="dc-logo">
+                <img src="{{ asset('images/footer-pinterest.png') }}" alt="dc-logo">
+                <img src="{{ asset('images/footer-twitter.png') }}" alt="dc-logo">
+                <img src="{{ asset('images/footer-youtube.png') }}" alt="dc-logo">
+            </div>
+        </div>
+    </div>
 </footer>
