@@ -29,7 +29,11 @@
                         <li><a href="">SHOP</a></li>
                     </ul>
                 </div>
-            {{-- input search da inserire--}}
+                {{-- input search da inserire--}}
+                <div class="search">
+                    <input type="search" name="Search" id="Search" placeholder="Search..." class="searchinput">
+                    <i class="fas fa-search lente"></i>
+                </div>
             </div>
         </div>
 </header>

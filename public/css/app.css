@@ -61,8 +61,10 @@ header .top-header .container .t-header-text .uppercase {
   margin-right: 55px;
 }
 header .main-header {
+  padding: 10px;
   min-height: 50px;
   align-items: center;
+  justify-content: space-between;
 }
 header .main-header .header-logo img {
   width: 70px;
@@ -73,14 +75,29 @@ header .main-header .navbar {
 header .main-header .navbar ul {
   display: flex;
   align-items: center;
+  padding-left: 0;
 }
 header .main-header .navbar li {
-  margin: 15px;
+  margin: 0 15px;
   list-style-type: none;
 }
 header .main-header .navbar a {
   text-decoration: none;
   color: black;
+  padding: 20px 0;
+  font-size: 12px;
+}
+header .main-header .navbar a:hover {
+  border-bottom: 5px solid #0079db;
+}
+header .main-header .searchinput {
+  margin-top: 10px;
+  border-style: unset;
+  border-bottom: 1px solid #0079db;
+  width: 50%;
+}
+header .main-header .searchinput:focus-visible {
+  outline: none;
 }
 
 #home-main {
