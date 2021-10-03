@@ -1,12 +1,13 @@
 #home-main{
-    height: 50vh;
+    min-height: 50vh;
     background-color: rgb(83, 83, 83);
     color: #fff;
-    .d-flex{
-        justify-content: center;
-        align-items: center;
-        h1{
-            font-size: 50px;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        .comics-card{
+            margin: 50px 0;
+            width: 20%;
         }
     }
 }

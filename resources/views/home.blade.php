@@ -5,8 +5,18 @@
 @endsection
 @section('main-content')
     <section id="home-main">
-        <div class="d-flex h-100">
-            <h1>Seleziona i contenuti da vedere</h1>
-        </div>
+      <div class="container">
+            {{-- card --}}
+           @foreach ($comics as $comic)
+              <div class="comics-card">
+                    <div class="card-img">
+                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                    </div>
+                    <div class="card-info">
+                        <p class="uppercase">{{ $comic['title'] }}</p>
+                    </div>
+              </div>
+            @endforeach 
+      </div>
     </section>
 @endsection

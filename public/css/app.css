@@ -32,6 +32,10 @@ body {
   align-items: center;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .btn {
   text-decoration: none;
 }
@@ -64,16 +68,17 @@ header .main-header .navbar a {
 }
 
 #home-main {
-  height: 50vh;
+  min-height: 50vh;
   background-color: #535353;
   color: #fff;
 }
-#home-main .d-flex {
-  justify-content: center;
-  align-items: center;
+#home-main .container {
+  display: flex;
+  flex-wrap: wrap;
 }
-#home-main .d-flex h1 {
-  font-size: 50px;
+#home-main .container .comics-card {
+  margin: 50px 0;
+  width: 20%;
 }
 
 .jumbo {
@@ -111,7 +116,7 @@ header .main-header .navbar a {
   width: 50px;
 }
 #blu-bar .container span {
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 footer {
