@@ -13,10 +13,14 @@
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                     </div>
                     <div class="card-info">
-                        <p class="uppercase">{{ $comic['title'] }}</p>
+                        <p class="uppercase">{{ $comic['series'] }}</p>
                     </div>
               </div>
             @endforeach 
       </div>
+      <div class="load-button"> 
+        <a href="#" class="btn blue-btn mx-auto">LOAD MORE</a>
+      </div>
+      
     </section>
 @endsection

@@ -38,11 +38,27 @@ body {
 
 .btn {
   text-decoration: none;
+  color: black;
+}
+
+.blue-btn {
+  color: #fff;
+  background-color: #0079db;
+  padding: 10px 25px;
 }
 
 header .top-header {
   height: 30px;
   background-color: #0079db;
+  color: #fff;
+}
+header .top-header .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .top-header .container .t-header-text .uppercase {
+  margin-right: 55px;
 }
 header .main-header {
   min-height: 50px;
@@ -77,8 +93,13 @@ header .main-header .navbar a {
   flex-wrap: wrap;
 }
 #home-main .container .comics-card {
-  margin: 50px 0;
+  margin-top: 50px;
   width: 20%;
+}
+#home-main .load-button {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
 }
 
 .jumbo {

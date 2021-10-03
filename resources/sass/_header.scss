@@ -2,6 +2,17 @@ header{
     .top-header{
         height: 30px;
         background-color: $primary;
+        color: #fff;
+        .container{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .t-header-text{
+                .uppercase{
+                    margin-right: 55px;
+                }
+            }
+        }
     }
     .main-header{
         min-height: 50px;

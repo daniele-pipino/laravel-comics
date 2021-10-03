@@ -1,6 +1,13 @@
 <header>
     {{-- top header --}}
-    <div class="top-header"></div>
+    <div class="top-header">
+        <div class="container">
+            <div class="t-header-text">
+                <span class="uppercase">DC POWER VISA</span>
+                <span>ADDITIONAL DC SITES</span>
+            </div>
+        </div>
+    </div>
         <div class="container">
             <div class="main-header d-flex">
                  {{-- logo --}}
