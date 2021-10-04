@@ -7,10 +7,10 @@
     <section id="home-main">
       <div class="container">
             {{-- card --}}
-           @foreach ($comics as $comic)
+           @foreach ($comics as $index => $comic)
               <div class="comics-card">
                     <div class="card-img">
-                      <a href="{{route('comics.show')}}">
+                      <a href="{{ url("/comics/$loop->index") }}">
                         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                       </a>    
                     </div>

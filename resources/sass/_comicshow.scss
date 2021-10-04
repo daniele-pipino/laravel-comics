@@ -7,9 +7,6 @@
         margin-top: 30px;
         .comic-detail{
             margin-right: 20px;
-            h1{
-                text-align: center;
-            }
         }
         .available{
             height: 50px;
@@ -39,6 +36,7 @@
 #comic-statistics{
     min-height: 50vh;
     background-color: rgb(231, 230, 230);
+    margin-top: 30px;
     .container{
         height: 100%;
         display: flex;
