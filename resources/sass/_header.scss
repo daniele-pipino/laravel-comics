@@ -38,8 +38,12 @@ header{
             }a{
                 text-decoration: none;
                 color: black;
-                padding: 20px 0;
-                font-size: 12px;&:hover{
+                padding-bottom: 30px;
+                font-size: 12px;
+                &:hover{
+                    border-bottom: 5px solid $primary;
+                }
+                .active{
                     border-bottom: 5px solid $primary;
                 }
             }

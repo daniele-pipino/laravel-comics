@@ -20,8 +20,16 @@ body {
   height: 100%;
 }
 
+.w-75 {
+  width: 75%;
+}
+
 .w-50 {
   width: 50%;
+}
+
+.w-25 {
+  width: 25%;
 }
 
 .d-flex {
@@ -45,6 +53,14 @@ body {
   color: #fff;
   background-color: #0079db;
   padding: 10px 25px;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
 }
 
 header .top-header {
@@ -84,10 +100,13 @@ header .main-header .navbar li {
 header .main-header .navbar a {
   text-decoration: none;
   color: black;
-  padding: 20px 0;
+  padding-bottom: 30px;
   font-size: 12px;
 }
 header .main-header .navbar a:hover {
+  border-bottom: 5px solid #0079db;
+}
+header .main-header .navbar a .active {
   border-bottom: 5px solid #0079db;
 }
 header .main-header .searchinput {
@@ -216,4 +235,63 @@ footer {
   height: 30px;
   padding-top: 12px;
   margin: 0 10px;
+}
+
+#comic-info {
+  min-height: 30vh;
+}
+#comic-info .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#comic-info .container .comic-detail {
+  margin-right: 20px;
+}
+#comic-info .container .comic-detail h1 {
+  text-align: center;
+}
+#comic-info .container .available {
+  height: 50px;
+  background-color: #04ad04;
+  width: 100%;
+  display: flex;
+}
+#comic-info .container .available .w-75 {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid black;
+}
+#comic-info .container .available .w-25 {
+  text-align: center;
+}
+#comic-info .container .comic-poster {
+  display: flex;
+  flex-direction: column;
+}
+#comic-info .container .comic-poster p {
+  align-self: flex-end;
+}
+
+#comic-statistics {
+  min-height: 50vh;
+  background-color: #e7e6e6;
+}
+#comic-statistics .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#comic-statistics .container h2 {
+  border-bottom: 1px solid grey;
+}
+#comic-statistics .container .w-50 {
+  margin-right: 20px;
+}
+#comic-statistics .container .w-50 div,
+#comic-statistics .container .w-25 div {
+  border-bottom: 1px solid grey;
 }

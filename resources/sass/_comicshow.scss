@@ -1,0 +1,57 @@
+#comic-info{
+    min-height: 30vh;
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .comic-detail{
+            margin-right: 20px;
+            h1{
+                text-align: center;
+            }
+        }
+        .available{
+            height: 50px;
+            background-color: rgb(4, 173, 4);
+            width: 100%;
+            display: flex;
+            .w-75{
+                padding: 0 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-right: 1px solid black;
+            }
+            .w-25{
+                text-align: center;
+            }
+        }
+        .comic-poster{
+            display: flex;
+            flex-direction: column;
+            p{
+                align-self: flex-end;
+            }
+        }
+    }
+}
+#comic-statistics{
+    min-height: 50vh;
+    background-color: rgb(231, 230, 230);
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        h2{
+            border-bottom: 1px solid grey;
+        }
+        .w-50{
+            margin-right: 20px;
+        }
+        .w-50 div,
+        .w-25 div{
+            border-bottom: 1px solid grey;
+        }
+    }
+}
